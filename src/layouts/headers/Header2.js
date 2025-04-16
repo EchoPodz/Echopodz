@@ -13,12 +13,12 @@ const Header2 = () => {
               <Link href="/">
                 <a>
                   <img
-                    src="assets/img/logo-white-2.png"
+                    src="assets/img/logo.png"
                     alt="logo"
                     className="main-logo"
                   />
                   <img
-                    src="assets/img/logo-4.png"
+                    src="assets/img/logo4.png"
                     alt="logo"
                     className="sticky-logo"
                   />

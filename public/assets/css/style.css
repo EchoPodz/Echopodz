@@ -399,7 +399,7 @@ span {
 }
 
 .text-pullquote.pullquote-secondary-color::after {
-  background-color: var(--color-secondary);
+  background-color: #039352;
 }
 
 /*======= Custom Container =======*/
@@ -595,7 +595,7 @@ span {
 }
 
 .bg-primary-color-2 {
-  background-color: var(--color-primary-2);
+  background-color: #034337;
 }
 
 .bg-primary-color-4 {
@@ -2209,9 +2209,8 @@ textarea {
   vertical-align: middle;
   border-radius: 50px;
   background-color: var(--color-primary);
-  border: 2px solid var(--color-primary);
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(71, 59, 240, 0.36);
-  box-shadow: 0px 10px 30px 0px rgba(71, 59, 240, 0.36);
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(6, 139, 46, 0.36);
+  box-shadow: 0px 10px 30px 0px rgba(9, 131, 5, 0.36);
   overflow: hidden;
 }
 
@@ -2250,7 +2249,7 @@ textarea {
   -webkit-box-shadow: none;
   box-shadow: none;
   color: var(--color-body-4);
-  border-color: #282a33;
+  border-color: #087022;
 }
 
 .template-btn.bordered-body-4:hover {
@@ -2260,10 +2259,7 @@ textarea {
 }
 
 .template-btn.primary-bg-2:not(:hover) {
-  background-color: var(--color-primary-2);
-  border-color: var(--color-primary-2);
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 64, 229, 0.36);
-  box-shadow: 0px 10px 30px 0px rgba(0, 64, 229, 0.36);
+  background-color: #039352;
 }
 
 .template-btn.primary-bg-2:hover {
@@ -3400,8 +3396,8 @@ textarea {
 }
 
 .common-heading.tagline-boxed-two .tagline {
-  background-color: #e5ecfc;
-  color: var(--color-primary-2);
+  background-color: #21b16e2f;
+  color: #039352;
   padding: 4px 18px;
   border-radius: 30px;
   margin-bottom: 25px;
@@ -5617,7 +5613,7 @@ textarea {
 }
 
 .fancy-check-list-v2.color-heading-3 li .list-inner::before {
-  background-color: var(--color-secondary);
+  background-color: #277867;
 }
 
 /*======= Testimonials v1  =======*/
@@ -7182,9 +7178,9 @@ textarea {
 /*======= Info Box =======*/
 .info-boxes-wrapper {
   border-radius: 15px;
-  background-color: #0146f6;
-  -webkit-box-shadow: 0px 2px 14px 0px rgba(0, 64, 229, 0.59);
-  box-shadow: 0px 2px 14px 0px rgba(0, 64, 229, 0.59);
+  background-color: #034337;
+  -webkit-box-shadow: 0px 2px 14px 0px rgba(44, 104, 5, 0.349);
+  box-shadow: 0px 2px 14px 0px rgba(1, 80, 14, 0.26);
   position: relative;
   z-index: 1;
   padding: 70px 105px;
@@ -7195,7 +7191,7 @@ textarea {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #215ffb;
+  background-color: #039352;
   top: 15%;
   bottom: 15%;
   right: 50%;
@@ -8403,7 +8399,7 @@ textarea {
   top: -20px;
   right: -20px;
   bottom: -20px;
-  background-color: var(--color-primary);
+  background-color: #034337;
   opacity: 0.1;
   border-radius: 12px;
 }
@@ -8414,7 +8410,7 @@ textarea {
 
 .counter-section-bordered.bordered-secondary-bg .counter-section-inner,
 .counter-section-bordered.bordered-secondary-bg .counter-section-inner::before {
-  background-color: var(--color-secondary);
+  background-color: #034337;
 }
 
 /*======= Service With Counter =======*/
@@ -8439,6 +8435,7 @@ textarea {
   position: relative;
   z-index: 2;
   margin-bottom: -150px;
+  
 }
 
 /*======= Testimonial With Video =======*/
