@@ -15,8 +15,8 @@ const Index2 = () => {
     <Layouts noFooter noHeader>
       {video && <VideoPopup close={setVideo} />}
       <Header2 />
-  <img src="/assets/img/echopodz2.png"  />
-  {/* <!-- Info Boxes --> */}
+      <img src="/assets/img/echopodz2.png" />
+      {/* <!-- Info Boxes --> */}
 
       {/* <!--====== End Hero Area ======--> */}
 
@@ -27,7 +27,7 @@ const Index2 = () => {
             <div className="col-12 text-center">
               <h2
                 className="brand-sectioin-title mb-4"
-                style={{ fontSize: "5rem", fontWeight: "600" }}
+                style={{  fontWeight: "600" }}
               >
                 WHY IT MATTERS?
               </h2>
@@ -103,35 +103,34 @@ const Index2 = () => {
 
       {/* <!--====== Start About Section ======--> */}
       <section className="about-section p-t-130 p-b-130">
-  <div className="container">
-    <div className="row justify-content-center text-center">
-      <div className="col-xl-8 col-lg-10 col-md-10">
-        <div className="about-text">
-          <div className="common-heading tagline-boxed-two title-line line-less-bottom m-b-40">
-            <span className="tagline">About Us</span>
-            <div className="preview-blob-image with-floating-icon m-b-md-100">
-             
-              <img src="assets/img/echoe2.png" alt="Image" />
+        <div className="container">
+          <div className="row justify-content-center text-center">
+            <div className="col-xl-8 col-lg-10 col-md-10">
+              <div className="about-text">
+                <div className="common-heading tagline-boxed-two title-line line-less-bottom m-b-40">
+                  <span className="tagline">About Us</span>
+                  <div className="preview-blob-image with-floating-icon m-b-md-100">
+                    <img src="assets/img/echoe2.png" alt="Image" />
+                  </div>
+                </div>
+                <p className="text-pullquote pullquote-secondary-color m-b-35">
+                  Sustainability is no longer about doing less harm. It’s about
+                  doing more good.
+                </p>
+                <p>
+                  EchoPodz is a sustainability-driven platform building a
+                  community of everyday heroes. Together, we can make a
+                  meaningful contribution one small thing at a time.
+                </p>
 
-
+                <a href="#" className="template-btn primary-bg-2 m-t-40">
+                  Learn More <i className="far fa-arrow-right"></i>
+                </a>
+              </div>
             </div>
           </div>
-          <p className="text-pullquote pullquote-secondary-color m-b-35">
-            Sustainability is no longer about doing less harm. It’s about doing more good.
-          </p>
-          <p>
-            EchoPodz is a sustainability-driven platform building a community of everyday heroes.
-            Together, we can make a meaningful contribution one small thing at a time.
-          </p>
-
-          <a href="#" className="template-btn primary-bg-2 m-t-40">
-            Learn More <i className="far fa-arrow-right"></i>
-          </a>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* <!--====== End About Section ======--> */}
 
@@ -141,9 +140,9 @@ const Index2 = () => {
         <section className="counter-section counter-section-bordered bordered-secondary-bg">
           <div className="container-fluid container-1420">
             <div className="counter-section-inner">
-              <div className="row counter-items-v2">
-                <div className="col-lg-3 col-sm-6">
-                  <div className="counter-item white-color counter-left">
+              <div className="row counter-items-v2 justify-content-center text-center  pl-60 pr-60">
+                <div className="col-lg-3 col-sm-6 mb-4">
+                  <div className="counter-item white-color">
                     <div className="counter-wrap">
                       <Counter end="60" suffix="%" />
                       <span className="suffix">
@@ -156,10 +155,10 @@ const Index2 = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6">
-                  <div className="counter-item white-color counter-left">
+                <div className="col-lg-3 col-sm-6 mb-4">
+                  <div className="counter-item white-color">
                     <div className="counter-wrap">
-                      <Counter end="36" />
+                      <Counter end="36" suffix="%" />
                       <span className="suffix">
                         <i className="far fa-percent"></i>
                       </span>
@@ -169,10 +168,10 @@ const Index2 = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6">
-                  <div className="counter-item white-color counter-left">
+                <div className="col-lg-3 col-sm-6 mb-4">
+                  <div className="counter-item white-color">
                     <div className="counter-wrap">
-                      <Counter end="88" />
+                      <Counter end="88" suffix="%" />
                       <span className="suffix">
                         <i className="far fa-percent"></i>
                       </span>
@@ -187,6 +186,7 @@ const Index2 = () => {
             </div>
           </div>
         </section>
+
         {/* <!--====== End Counter Section ======--> */}
 
         {/* <!--====== Service Section Start ======--> */}
@@ -200,38 +200,54 @@ const Index2 = () => {
       {/* <!--====== Start Team Section ======--> */}
       <section className="team-section team-masonry-section p-t-150 p-b-130">
         <div className="container">
-          <div className="collaborate-text-block">
-            <div className="common-heading title-line-bottom m-b-60">
-              <div className="common-heading tagline-boxed-two title-line m-b-80">
-                <span className="tagline">Our Approach</span>
-                <h2 className="title">EchoPodz Means:</h2>
-                <img
-                  src="assets/img/particle/title-line-3.png"
-                  alt="Image"
-                  className="Line"
-                />
+          <div className="row align-items-center">
+            {/* Text Column */}
+            <div className="col-lg-6">
+              <div className="collaborate-text-block">
+                <div className="common-heading title-line-bottom m-b-60">
+                  <div className="common-heading tagline-boxed-two title-line m-b-80">
+                    <span className="tagline">Our Approach</span>
+                    <h2 className="title">EchoPodz Means:</h2>
+                    <img
+                      src="assets/img/particle/title-line-3.png"
+                      alt="Line Decoration"
+                      className="Line"
+                    />
+                  </div>
+                </div>
+
+                <ul className="fancy-check-list-v2 color-heading-3 m-t-40">
+                  <li className="wow fadeInUp">
+                    <span className="list-inner">
+                      A Buildup of Small Initiatives
+                    </span>
+                  </li>
+                  <li className="wow fadeInUp">
+                    <span className="list-inner">A Ripple Effect</span>
+                  </li>
+                  <li className="wow fadeInUp">
+                    <span className="list-inner">A Connected Community</span>
+                  </li>
+                  <li className="wow fadeInUp">
+                    <span className="list-inner">Measurable Impact!</span>
+                  </li>
+                </ul>
               </div>
             </div>
-            {/* <!-- Fancy Check List v1 --> */}
-            <ul className="fancy-check-list-v2 color-heading-3 m-t-40">
-              <li className="wow fadeInUp">
-                <span className="list-inner">
-                  A Buildup of Small Initiatives{" "}
-                </span>
-              </li>
-              <li className="wow fadeInUp">
-                <span className="list-inner">A Ripple Effect </span>
-              </li>
-              <li className="wow fadeInUp">
-                <span className="list-inner">A Connected Community </span>
-              </li>
-              <li className="wow fadeInUp">
-                <span className="list-inner">Measurable Impact!</span>
-              </li>
-            </ul>
+
+            {/* Image Column */}
+            <div className="col-lg-6 text-center">
+              <img
+                src="assets/img/sal.png"
+                alt="EchoPodz Approach Illustration"
+                className="img-fluid"
+                style={{ maxWidth: "100%", borderRadius: "20px" }}
+              />
+            </div>
           </div>
         </div>
       </section>
+
       {/* <!--====== End Team Section ======--> */}
 
       {/* <!--====== Start Faq With SEO score box ======--> */}

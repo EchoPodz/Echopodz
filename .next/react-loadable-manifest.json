@@ -1,1 +1,9 @@
-{}
+{
+  "portfolio.js -> ../src/components/PortfolioIsotop": {
+    "id": 5287,
+    "files": [
+      "static/chunks/391.6ea921cae0912cf9.js",
+      "static/chunks/287.364c95fe7848a923.js"
+    ]
+  }
+}
