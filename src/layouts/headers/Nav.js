@@ -4,73 +4,39 @@ const Nav = () => {
   return (
     <nav className="nav-menu d-none d-xl-block">
       <ul>
-        <li className="active">
-          <Link href="/">
-            <a>
-              Demos
-              <span className="dd-trigger">
-                <i className="fas fa-angle-down" />
-              </span>
-            </a>
-          </Link>
-          <ul className="sub-menu">
-            <Demos />
-          </ul>
-        </li>
-        <li>
-          <Link href="/services">
-            <a>
-              Solutions
-              <span className="dd-trigger">
-                <i className="fas fa-angle-down" />
-              </span>
-            </a>
-          </Link>
-          <ul className="sub-menu">
-            <Services />
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            Pages
-            <span className="dd-trigger">
-              <i className="fas fa-angle-down" />
-            </span>
-          </a>
-          <ul className="sub-menu">
-            <Pages1st />
-            <li>
-              <Link href="/portfolio">
-                <a>
-                  Portfolio
-                  <span className="dd-trigger">
-                    <i className="fas fa-angle-down" />
-                  </span>
-                </a>
-              </Link>
-              <ul className="sub-menu">
-                <Portfolio />
-              </ul>
-            </li>
-            <Pages2nd />
-          </ul>
-        </li>
-        <li>
-          <Link href="/blog-standard">
-            <a>
-              Blog
-              <span className="dd-trigger">
-                <i className="fas fa-angle-down" />
-              </span>
-            </a>
-          </Link>
-          <ul className="sub-menu">
-            <Blog />
-          </ul>
-        </li>
         <li>
           <Link href="/contact">
-            <a>Contact</a>
+            <a>Home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>About Us</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>App</a>
+          </Link> 
+        </li>
+        <li>
+          <Link href="/about">
+            <a>Why Us</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>FAQ's</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>Our Form</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>Contact Us</a>
           </Link>
         </li>
       </ul>
