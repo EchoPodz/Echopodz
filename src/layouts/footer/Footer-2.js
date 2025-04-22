@@ -57,27 +57,27 @@ const Footer2 = ({ extraClass }) => {
                   <ul>
                     <li>
                       <Link href="/about">
-                        <a>Saas Development</a>
+                      Saas Development
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Our Products</a>
+                       Our Products
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>User Strategy</a>
+                       User Strategy
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Blogs &amp; Guides</a>
+                        Blogs &amp; Guides
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Premium Support</a>
+                      Premium Support
                       </Link>
                     </li>
                   </ul>
@@ -92,27 +92,27 @@ const Footer2 = ({ extraClass }) => {
                   <ul>
                     <li>
                       <Link href="/about">
-                        <a>About Landio</a>
+                      About Landio
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Contact &amp; Support</a>
+                       Contact &amp; Support
                       </Link>
                     </li>
                     <li>
                       <Link href="/services">
-                        <a>Success History</a>
+                       Success History
                       </Link>
                     </li>
                     <li>
                       <Link href="/services">
-                        <a>Setting &amp; Privacy</a>
+                       Setting &amp; Privacy
                       </Link>
                     </li>
                     <li>
                       <Link href="/services">
-                        <a>Company History</a>
+                    Company History
                       </Link>
                     </li>
                   </ul>

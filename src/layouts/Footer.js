@@ -51,27 +51,27 @@ const Footer = () => {
                   <ul>
                     <li>
                       <Link href="/about">
-                        <a>Saas Development</a>
+                        Saas Development
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Our Products</a>
+                        Our Products
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>User Strategy</a>
+                        User Strategy
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Blogs &amp; Guides</a>
+                        Blogs &amp; Guides
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Premium Support</a>
+                       Premium Support
                       </Link>
                     </li>
                   </ul>
@@ -86,27 +86,27 @@ const Footer = () => {
                   <ul>
                     <li>
                       <Link href="/about">
-                        <a>About Landio</a>
+                        About Landio
                       </Link>
                     </li>
                     <li>
                       <Link href="/about">
-                        <a>Contact &amp; Support</a>
+                        Contact &amp; Support
                       </Link>
                     </li>
                     <li>
                       <Link href="/services">
-                        <a>Success History</a>
+                       Success History
                       </Link>
                     </li>
                     <li>
                       <Link href="/services">
-                        <a>Setting &amp; Privacy</a>
+                        Setting &amp; Privacy
                       </Link>
                     </li>
                     <li>
                       <Link href="/services">
-                        <a>Company History</a>
+                      Company History
                       </Link>
                     </li>
                   </ul>
@@ -119,17 +119,17 @@ const Footer = () => {
                 <h5 className="widget-title">Download</h5>
                 <ul>
                   <li className="m-b-10">
-                    <Link href="/services">
-                      <a className="template-btn shadow-none">
+                    <Link href="/services" className="template-btn shadow-none">
+                    
                         Apple Store <i className="fab fa-apple"></i>
-                      </a>
+                     
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services">
-                      <a className="template-btn bg-soft-grey-color">
+                    <Link href="/services"className="template-btn bg-soft-grey-color">
+                      
                         Google Play <i className="fab fa-google-play"></i>
-                      </a>
+                     
                     </Link>
                   </li>
                 </ul>

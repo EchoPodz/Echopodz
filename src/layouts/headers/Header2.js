@@ -11,7 +11,6 @@ const Header2 = () => {
           <div className="header-left">
             <div className="brand-logo">
               <Link href="/">
-                <a>
                   <img
                     src="assets/img/logo.png"
                     alt="logo"
@@ -22,7 +21,6 @@ const Header2 = () => {
                     alt="logo"
                     className="sticky-logo"
                   />
-                </a>
               </Link>
             </div>
           </div>
@@ -32,17 +30,13 @@ const Header2 = () => {
           <div className="header-right">
             <ul className="header-extra">
               <li className="d-none d-sm-block">
-                <Link href="/sign-in">
-                  <a className="user-login">
+                <Link href="/sign-in"  className="user-login">
                     <i className="far fa-user-circle" /> Login
-                  </a>
                 </Link>
               </li>
               <li className="d-none d-md-block">
-                <Link href="/services">
-                  <a className="template-btn secondary-bg">
+                <Link href="/services" className="template-btn secondary-bg">
                     Get Started <i className="fas fa-arrow-right" />
-                  </a>
                 </Link>
               </li>
               <li className="d-xl-none">

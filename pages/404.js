@@ -23,10 +23,8 @@ const E404 = () => {
                 >
                   <h2>OPPS!</h2>
                   <p>This Page Are Can’t Be Found</p>
-                  <Link href="/">
-                    <a className="template-btn m-t-35">
+                  <Link href="/"  className="template-btn m-t-35">
                       Back To Home <i className="fas fa-arrow-right"></i>
-                    </a>
                   </Link>
                 </div>
               </div>

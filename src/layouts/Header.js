@@ -17,9 +17,9 @@ const Header = () => {
               <div className="branding-and-language-selection">
                 <div className="brand-logo">
                   <Link href="/">
-                    <a>
+                  
                       <img src="assets/img/logo-1.png" alt="logo" />
-                    </a>
+                    
                   </Link>
                 </div>
               </div>
@@ -29,12 +29,12 @@ const Header = () => {
                 <ul>
                   <li>
                     <Link href="/">
-                      <a>
+                    
                         Demos
                         <span className="dd-trigger">
                           <i className="fas fa-angle-down"></i>
                         </span>
-                      </a>
+                   
                     </Link>
                     <ul className="sub-menu">
                       <Demos />
@@ -42,12 +42,12 @@ const Header = () => {
                   </li>
                   <li>
                     <Link href="/services">
-                      <a>
+                   
                         Services
                         <span className="dd-trigger">
                           <i className="fas fa-angle-down"></i>
                         </span>
-                      </a>
+                    
                     </Link>
                     <ul className="sub-menu">
                       <Services />
@@ -64,12 +64,12 @@ const Header = () => {
                       <Pages1st />
                       <li>
                         <Link href="/portfolio">
-                          <a>
+                    
                             Portfolio
                             <span className="dd-trigger">
                               <i className="fas fa-angle-down"></i>
                             </span>
-                          </a>
+                      
                         </Link>
                         <ul className="sub-menu">
                           <Portfolio />
@@ -80,12 +80,12 @@ const Header = () => {
                   </li>
                   <li>
                     <Link href="/blog-standard">
-                      <a>
+                    
                         Blog
                         <span className="dd-trigger">
                           <i className="fas fa-angle-down"></i>
                         </span>
-                      </a>
+                      
                     </Link>
                     <ul className="sub-menu">
                       <Blog />
@@ -93,7 +93,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link href="/contact">
-                      <a>Contact</a>
+                     Contact
                     </Link>
                   </li>
                 </ul>
@@ -113,10 +113,10 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="d-none d-lg-block">
-                  <Link href="/services">
-                    <a className="template-btn">
+                  <Link href="/services" className="template-btn">
+                 
                       Get Started <i className="fas fa-arrow-right"></i>
-                    </a>
+               
                   </Link>
                 </li>
                 <li className="d-xl-none">

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import Slider from "react-slick";
-import AccordionV1 from "../src/components/AccordionV1";
 import Counter from "../src/components/Counter";
 import VideoPopup from "../src/components/VideoPopup";
 import Footer2 from "../src/layouts/footer/Footer-2";

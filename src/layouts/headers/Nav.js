@@ -6,37 +6,37 @@ const Nav = () => {
       <ul>
         <li>
           <Link href="/contact">
-            <a>Home</a>
+          Home
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>About Us</a>
+        About Us
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>App</a>
+           App
           </Link> 
         </li>
         <li>
           <Link href="/about">
-            <a>Why Us</a>
+           Why Us
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>FAQ's</a>
+          FAQ's
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>Our Form</a>
+          Our Form
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>Contact Us</a>
+          Contact Us
           </Link>
         </li>
       </ul>

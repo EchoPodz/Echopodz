@@ -13,16 +13,16 @@ const MobileMenu = ({ show, close }) => {
       <div className="panel-inner">
         <div className="mobile-logo">
           <Link href="/">
-            <a>
+          
               <img src="assets/img/logo-1.png" alt="Landio" />
-            </a>
+           
           </Link>
         </div>
         <nav className="mobile-menu">
           <ul>
             <li>
               <Link href="/">
-                <a>
+               
                   Demos
                   <span
                     className="dd-trigger"
@@ -30,7 +30,7 @@ const MobileMenu = ({ show, close }) => {
                   >
                     <i className="fas fa-angle-down"></i>
                   </span>
-                </a>
+               
               </Link>
               <ul className="sub-menu" style={activeLi("demo")}>
                 <Demos />
@@ -38,7 +38,7 @@ const MobileMenu = ({ show, close }) => {
             </li>
             <li>
               <Link href="/services">
-                <a>
+            
                   Services
                   <span
                     className="dd-trigger"
@@ -46,7 +46,7 @@ const MobileMenu = ({ show, close }) => {
                   >
                     <i className="fas fa-angle-down"></i>
                   </span>
-                </a>
+               
               </Link>
               <ul className="sub-menu" style={activeLi("Services")}>
                 <Services />
@@ -70,7 +70,7 @@ const MobileMenu = ({ show, close }) => {
             </li>
             <li>
               <Link href="/blog-standard">
-                <a>
+            
                   Blog
                   <span
                     className="dd-trigger"
@@ -78,7 +78,7 @@ const MobileMenu = ({ show, close }) => {
                   >
                     <i className="fas fa-angle-down"></i>
                   </span>
-                </a>
+               
               </Link>
               <ul className="sub-menu" style={activeLi("Blog")}>
                 <Blog />
