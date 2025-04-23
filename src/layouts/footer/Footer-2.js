@@ -74,7 +74,7 @@ const Footer2 = ({ extraClass }) => {
                   <li>
                     <a href="tel:+01234567899">
                       <i className="fal fa-phone"></i>
-                      + Phone Avaialble Soon
+                      + Phone Available Soon
                     </a>
                   </li>
                 </ul>
