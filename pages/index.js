@@ -41,7 +41,7 @@ const Index2 = () => {
             <div className="box-item">
               <div className="box-icon">
                 <img
-                  src="assets/img/icon/infobox-icon-1.png"
+                  src="assets/img/icon/1.png"
                   alt="info icon one"
                 />
               </div>
@@ -60,7 +60,7 @@ const Index2 = () => {
             <div className="box-item">
               <div className="box-icon">
                 <img
-                  src="assets/img/icon/infobox-icon-1.png"
+                  src="assets/img/icon/2.png"
                   alt="info icon one"
                 />
               </div>
@@ -80,7 +80,7 @@ const Index2 = () => {
             <div className="box-item">
               <div className="box-icon">
                 <img
-                  src="assets/img/icon/infobox-icon-1.png"
+                  src="assets/img/icon/3.png"
                   alt="info icon one"
                 />
               </div>

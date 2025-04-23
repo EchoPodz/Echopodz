@@ -11,27 +11,17 @@ const Nav = () => {
         </li>
         <li>
           <Link href="/about">
-        About Us
+          Why It Matters?
           </Link>
         </li>
         <li>
           <Link href="/about">
-           App
+          About Us
           </Link> 
         </li>
         <li>
           <Link href="/about">
-           Why Us
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-          FAQ's
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-          Our Form
+          Our Approach
           </Link>
         </li>
         <li>

@@ -14,10 +14,11 @@ const Footer2 = ({ extraClass }) => {
             {/* <!-- Single Footer Widget --> */}
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="widget text-block-widget">
-                <h5 className="widget-title">About Landio</h5>
+                <h5 className="widget-title">About Echopodz</h5>
                 <p>
-                  Sed ut perspiciatis undmnis iste natus error sit voluptatem
-                  accusantium dolore udantiuy totam rem aperiam.
+                  EchoPodz is a sustainability-driven platform building a
+                  community of everyday heroes. Together, we can make a
+                  meaningful contribution one small thing at a time.
                 </p>
 
                 <ul className="social-links bordered-style m-t-20">
@@ -50,75 +51,9 @@ const Footer2 = ({ extraClass }) => {
               </div>
             </div>
             {/* <!-- Single Footer Widget --> */}
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="d-lg-flex justify-content-center">
-                <div className="widget nav-widget">
-                  <h5 className="widget-title">Resources</h5>
-                  <ul>
-                    <li>
-                      <Link href="/about">
-                      Saas Development
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/about">
-                       Our Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/about">
-                       User Strategy
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/about">
-                        Blogs &amp; Guides
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/about">
-                      Premium Support
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
             {/* <!-- Single Footer Widget --> */}
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="d-lg-flex justify-content-center">
-                <div className="widget nav-widget">
-                  <h5 className="widget-title">Company</h5>
-                  <ul>
-                    <li>
-                      <Link href="/about">
-                      About Landio
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/about">
-                       Contact &amp; Support
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/services">
-                       Success History
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/services">
-                       Setting &amp; Privacy
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/services">
-                    Company History
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
             {/* <!-- Single Footer Widget --> */}
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="widget contact-widget pl-xl-5">
@@ -131,9 +66,9 @@ const Footer2 = ({ extraClass }) => {
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:support@gmail.com">
+                    <a href="mailto:zayneb.masmoudi@echopodz.com">
                       <i className="fal fa-envelope-open-text"></i>
-                      support@gmail.com
+                      zayneb.masmoudi@echopodz.com
                     </a>
                   </li>
                   <li>
@@ -153,12 +88,12 @@ const Footer2 = ({ extraClass }) => {
           <div className="row align-items-center justify-content-between">
             <div className="col-sm-auto col-12">
               <div className="copyright-logo text-center text-sm-left">
-                <img src="assets/img/logo-white-2.png" alt="Landio" />
+                <img src="assets/img/logo.png" alt="Landio" />
               </div>
             </div>
             <div className="col-sm-auto col-12">
               <p className="copyright-text text-center text-sm-right pt-4 pt-sm-0">
-                © 2021 <a href="#">Landio</a>. All Rights Reserved
+                © 2025 <a href="#">Echopodz</a>. All Rights Reserved
               </p>
             </div>
           </div>

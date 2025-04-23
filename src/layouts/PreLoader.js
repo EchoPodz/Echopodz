@@ -4,7 +4,7 @@ const PreLoader = () => {
       <img
         className="preloader-image"
         width="60"
-        src="assets/img/preloader-logo.png"
+        src="assets/img/logo.png"
         alt="preloader"
       />
     </div>
