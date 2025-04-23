@@ -62,7 +62,7 @@ const Footer2 = ({ extraClass }) => {
                   <li>
                     <a href="#">
                       <i className="fal fa-map-marker-alt"></i>
-                      55 Old Broad Street, London, EC2M
+                      Tunis , Tunisia
                     </a>
                   </li>
                   <li>
@@ -74,7 +74,7 @@ const Footer2 = ({ extraClass }) => {
                   <li>
                     <a href="tel:+01234567899">
                       <i className="fal fa-phone"></i>
-                      +012 (345) 678 99
+                      + Phone Avaialble Soon
                     </a>
                   </li>
                 </ul>
