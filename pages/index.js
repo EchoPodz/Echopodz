@@ -20,13 +20,16 @@ const Index2 = () => {
       {/* <!--====== End Hero Area ======--> */}
 
       {/* <!--====== Start Brands Slider Area ======--> */}
-      <section className="brands-section">
-        <div className="container p-t-85 p-b-85 border-bottom-primary">
+      <section
+        className="brands-section"
+        style={{ paddingTop: "50px", paddingBottom: "50px" }}
+      >
+        <div>
           <div className="row justify-content-center">
             <div className="col-12 text-center">
               <h2
-                className="brand-sectioin-title mb-4"
-                style={{  fontWeight: "600" }}
+                className="brand-section-title2 mb-4"
+                style={{ fontFamily: "'Nunito', sans-serif" }}
               >
                 WHY IT MATTERS?
               </h2>
@@ -34,16 +37,14 @@ const Index2 = () => {
           </div>
         </div>
       </section>
+
       {/* <!--====== End Brands Slider Area ======--> */}
       <div className="container-fluid container-1380">
         <div className="info-boxes-wrapper wow fadeInUp" data-wow-delay="0.4s">
           <div className="info-boxes">
             <div className="box-item">
               <div className="box-icon">
-                <img
-                  src="assets/img/icon/1.png"
-                  alt="info icon one"
-                />
+                <img src="assets/img/icon/1.png" alt="info icon one" />
               </div>
               <div className="box-content">
                 <h4 className="box-title">
@@ -59,10 +60,7 @@ const Index2 = () => {
             </div>
             <div className="box-item">
               <div className="box-icon">
-                <img
-                  src="assets/img/icon/2.png"
-                  alt="info icon one"
-                />
+                <img src="assets/img/icon/2.png" alt="info icon one" />
               </div>
               <div className="box-content">
                 <h4 className="box-title">
@@ -79,10 +77,7 @@ const Index2 = () => {
             </div>
             <div className="box-item">
               <div className="box-icon">
-                <img
-                  src="assets/img/icon/3.png"
-                  alt="info icon one"
-                />
+                <img src="assets/img/icon/3.png" alt="info icon one" />
               </div>
               <div className="box-content">
                 <h4 className="box-title">
@@ -135,6 +130,23 @@ const Index2 = () => {
 
       {/* <!--====== Start Service With counter ======--> */}
       <div className="service-with-counter">
+        <section
+          className="brands-section"
+          style={{ paddingTop: "30px", paddingBottom: "30px" }}
+        >
+          <div>
+            <div className="row justify-content-center">
+              <div className="col-12 text-center">
+                <h2
+                  className="brand-section-title2 mb-4"
+                  style={{ fontFamily: "'Nunito', sans-serif" }}
+                >
+                  WHY IT MATTERS?
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* <!--====== Start Counter Section ======--> */}
         <section className="counter-section counter-section-bordered bordered-secondary-bg">
           <div className="container-fluid container-1420">
@@ -203,8 +215,14 @@ const Index2 = () => {
             {/* Text Column */}
             <div className="col-lg-6">
               <div className="collaborate-text-block">
-                <div className="common-heading title-line-bottom m-b-60">
-                  <div className="common-heading tagline-boxed-two title-line m-b-80">
+                <div
+                  className="common-heading title-line-bottom"
+                  style={{ marginBottom: "0px" }}
+                >
+                  <div
+                    className="common-heading tagline-boxed-two title-line"
+                    style={{ marginBottom: "0px" }}
+                  >
                     <span className="tagline">Our Approach</span>
                     <h2 className="title">EchoPodz Means:</h2>
                     <img
@@ -214,8 +232,10 @@ const Index2 = () => {
                     />
                   </div>
                 </div>
-
-                <ul className="fancy-check-list-v2 color-heading-3 m-t-40">
+                <ul
+                  className="fancy-check-list-v2 color-heading-3 m-t-40"
+                  style={{ marginBottom: "10px" }}
+                >
                   <li className="wow fadeInUp">
                     <span className="list-inner">
                       A Buildup of Small Initiatives
@@ -242,6 +262,32 @@ const Index2 = () => {
                 className="img-fluid"
                 style={{ maxWidth: "100%", borderRadius: "20px" }}
               />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        className="cta-section bg-cover-center p-t-90 p-b-90"
+        style={{ backgroundImage: "url(assets/img/cta/quiz.png)" }}
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-6 col-lg-7 col-md-10">
+              <div className="cta-content text-center">
+                <div
+                  className="common-heading heading-white"
+                  style={{ marginBottom: "30px" }}
+                >
+                  <span className="tagquiz">How About a little Quizz ?</span>
+                  <h2 className="quiz">
+                    Get to know your user profile and help us get to know you
+                    better!
+                  </h2>
+                </div>
+                <a href="#" className="template-btn white-bg bordered-btn">
+                  Start the Quiz <i className="far fa-arrow-right" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

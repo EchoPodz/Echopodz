@@ -29,14 +29,9 @@ const Header2 = () => {
           </div>
           <div className="header-right">
             <ul className="header-extra">
-              <li className="d-none d-sm-block">
-                <Link href="/sign-in"  className="user-login">
-                    <i className="far fa-user-circle" /> Login
-                </Link>
-              </li>
               <li className="d-none d-md-block">
                 <Link href="/services" className="template-btn secondary-bg">
-                    Get Started <i className="fas fa-arrow-right" />
+                    Start the Quiz <i className="fas fa-arrow-right" />
                 </Link>
               </li>
               <li className="d-xl-none">
