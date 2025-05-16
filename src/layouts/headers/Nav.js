@@ -11,13 +11,18 @@ const Nav = () => {
         </li>
         <li>
           <Link href="/about">
-          Why It Matters?
+          How It Works?
           </Link>
         </li>
         <li>
           <Link href="/about">
           About Us
           </Link> 
+        </li>
+                <li>
+          <Link href="/about">
+          Why It Matters?
+          </Link>
         </li>
         <li>
           <Link href="/about">

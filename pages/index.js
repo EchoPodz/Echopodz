@@ -31,7 +31,7 @@ const Index2 = () => {
                 className="brand-section-title2 mb-4"
                 style={{ fontFamily: "'Nunito', sans-serif" }}
               >
-                WHY IT MATTERS?
+                HOW IT WORKS?
               </h2>
             </div>
           </div>
