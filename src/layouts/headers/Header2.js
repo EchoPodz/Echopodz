@@ -30,9 +30,9 @@ const Header2 = () => {
           <div className="header-right">
             <ul className="header-extra">
               <li className="d-none d-md-block">
-                <Link href="/services" className="template-btn secondary-bg">
+                <a href="https://tally.so/r/RGxDg4" target="_blank" rel="noopener noreferrer" className="template-btn secondary-bg">
                     Start the Quiz <i className="fas fa-arrow-right" />
-                </Link>
+                </a>
               </li>
               <li className="d-xl-none">
                 <a
