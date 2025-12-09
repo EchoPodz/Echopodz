@@ -288,7 +288,7 @@ const Index2 = () => {
                   </h2>
                 </div>
                 <a href="https://tally.so/r/RGxDg4" target="_blank" rel="noopener noreferrer" className="template-btn white-bg bordered-btn">
-                  Start the Quiz <i className="far fa-arrow-right" />
+                  Join the Waitlist <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>

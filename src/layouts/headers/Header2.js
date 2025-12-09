@@ -31,7 +31,7 @@ const Header2 = () => {
             <ul className="header-extra">
               <li className="d-none d-md-block">
                 <a href="https://tally.so/r/RGxDg4" target="_blank" rel="noopener noreferrer" className="template-btn secondary-bg">
-                    Start the Quiz <i className="fas fa-arrow-right" />
+                    Join the Waitlist <i className="fas fa-arrow-right" />
                 </a>
               </li>
               <li className="d-xl-none">
