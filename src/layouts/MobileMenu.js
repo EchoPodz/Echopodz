@@ -7,6 +7,15 @@ const MobileMenu = ({ show, close }) => {
       setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
+  
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      close(); // Close mobile menu after clicking
+    }
+  };
   return (
     <div className={`mobile-slide-panel ${show ? "panel-on" : ""}`}>
       <div className="panel-overlay" onClick={() => close()}></div>
@@ -21,71 +30,22 @@ const MobileMenu = ({ show, close }) => {
         <nav className="mobile-menu">
           <ul>
             <li>
-              <Link href="/">
-               
-                  Demos
-                  <span
-                    className="dd-trigger"
-                    onClick={() => activeMenuSet("demo")}
-                  >
-                    <i className="fas fa-angle-down"></i>
-                  </span>
-               
-              </Link>
-              <ul className="sub-menu" style={activeLi("demo")}>
-                <Demos />
-              </ul>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/services">
-            
-                  Services
-                  <span
-                    className="dd-trigger"
-                    onClick={() => activeMenuSet("Services")}
-                  >
-                    <i className="fas fa-angle-down"></i>
-                  </span>
-               
-              </Link>
-              <ul className="sub-menu" style={activeLi("Services")}>
-                <Services />
-              </ul>
+              <a href="#how-it-works" onClick={(e) => handleSmoothScroll(e, 'how-it-works')}>How It Works?</a>
             </li>
             <li>
-              <a href="#">
-                Pages
-                <span
-                  className="dd-trigger"
-                  onClick={() => activeMenuSet("Pages")}
-                >
-                  <i className="fas fa-angle-down"></i>
-                </span>
-              </a>
-              <ul className="sub-menu" style={activeLi("Pages")}>
-                <Pages1st />
-                <Portfolio />
-                <Pages2nd />
-              </ul>
+              <a href="#about-us" onClick={(e) => handleSmoothScroll(e, 'about-us')}>About Us</a>
             </li>
             <li>
-              <Link href="/blog-standard">
-            
-                  Blog
-                  <span
-                    className="dd-trigger"
-                    onClick={() => activeMenuSet("Blog")}
-                  >
-                    <i className="fas fa-angle-down"></i>
-                  </span>
-               
-              </Link>
-              <ul className="sub-menu" style={activeLi("Blog")}>
-                <Blog />
-              </ul>
+              <a href="#why-it-matters" onClick={(e) => handleSmoothScroll(e, 'why-it-matters')}>Why It Matters?</a>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <a href="#our-approach" onClick={(e) => handleSmoothScroll(e, 'our-approach')}>Our Approach</a>
+            </li>
+            <li>
+              <a href="#contact-us" onClick={(e) => handleSmoothScroll(e, 'contact-us')}>Contact Us</a>
             </li>
           </ul>
         </nav>

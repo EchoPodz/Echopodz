@@ -21,6 +21,7 @@ const Index2 = () => {
 
       {/* <!--====== Start Brands Slider Area ======--> */}
       <section
+        id="how-it-works"
         className="brands-section"
         style={{ paddingTop: "50px", paddingBottom: "50px" }}
       >
@@ -96,7 +97,7 @@ const Index2 = () => {
       </div>
 
       {/* <!--====== Start About Section ======--> */}
-      <section className="about-section p-t-130 p-b-130">
+      <section id="about-us" className="about-section p-t-130 p-b-130">
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-xl-8 col-lg-10 col-md-10">
@@ -131,6 +132,7 @@ const Index2 = () => {
       {/* <!--====== Start Service With counter ======--> */}
       <div className="service-with-counter">
         <section
+          id="why-it-matters"
           className="brands-section"
           style={{ paddingTop: "30px", paddingBottom: "30px" }}
         >
@@ -209,7 +211,7 @@ const Index2 = () => {
       {/* <!--====== End Service With counter ======--> */}
 
       {/* <!--====== Start Team Section ======--> */}
-      <section className="team-section team-masonry-section p-t-150 p-b-130">
+      <section id="our-approach" className="team-section team-masonry-section p-t-150 p-b-130">
         <div className="container">
           <div className="row align-items-center">
             {/* Text Column */}
@@ -267,6 +269,7 @@ const Index2 = () => {
         </div>
       </section>
       <section
+        id="contact-us"
         className="cta-section bg-cover-center p-t-90 p-b-90"
         style={{ backgroundImage: "url(assets/img/cta/quiz.png)" }}
       >

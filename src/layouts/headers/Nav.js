@@ -1,38 +1,46 @@
 import Link from "next/link";
 import { Blog, Demos, Pages1st, Pages2nd, Portfolio, Services } from "../Menus";
 const Nav = () => {
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <nav className="nav-menu d-none d-xl-block">
       <ul>
         <li>
-          <Link href="/contact">
+          <Link href="/">
           Home
           </Link>
         </li>
         <li>
-          <Link href="/about">
+          <a href="#how-it-works" onClick={(e) => handleSmoothScroll(e, 'how-it-works')}>
           How It Works?
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/about">
+          <a href="#about-us" onClick={(e) => handleSmoothScroll(e, 'about-us')}>
           About Us
-          </Link> 
+          </a> 
         </li>
                 <li>
-          <Link href="/about">
+          <a href="#why-it-matters" onClick={(e) => handleSmoothScroll(e, 'why-it-matters')}>
           Why It Matters?
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/about">
+          <a href="#our-approach" onClick={(e) => handleSmoothScroll(e, 'our-approach')}>
           Our Approach
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/about">
+          <a href="#contact-us" onClick={(e) => handleSmoothScroll(e, 'contact-us')}>
           Contact Us
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
